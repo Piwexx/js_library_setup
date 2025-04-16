@@ -1,6 +1,6 @@
 {
-  "name": "ninja-lib",
-  "author": "Sameer Kumar",
+  "name": "js-library-setup",
+  "author": "Juan Vigario",
   "type": "module",
   "version": "1.0.0",
   "description": "Library for finding real ninjas",
@@ -13,6 +13,12 @@
       "require": "./dist/ninja.umd.js"
     }
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Piwexx/js_library_setup"
+  },
+  "keywords": ["Setup","Js"],
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build"
