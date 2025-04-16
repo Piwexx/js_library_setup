@@ -2,9 +2,11 @@
   "name": "js-library-setup",
   "author": "Juan Vigario",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Library for finding real ninjas",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "./dist/ninja.umd.js",
   "module": "./dist/ninja.es.js",
   "exports": {
@@ -17,7 +19,10 @@
     "type": "git",
     "url": "https://github.com/Piwexx/js_library_setup"
   },
-  "keywords": ["Setup","Js"],
+  "keywords": [
+    "Setup",
+    "Js"
+  ],
   "license": "MIT",
   "scripts": {
     "dev": "vite",
