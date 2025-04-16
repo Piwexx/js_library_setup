@@ -1,0 +1,23 @@
+{
+  "name": "ninja-lib",
+  "author": "Sameer Kumar",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Library for finding real ninjas",
+  "files": ["dist"],
+  "main": "./dist/ninja.umd.js",
+  "module": "./dist/ninja.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/ninja.es.js",
+      "require": "./dist/ninja.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^6.3.0"
+  }
+}
